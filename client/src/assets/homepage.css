@@ -38,3 +38,9 @@ body {
     border-radius: 10px;
     border: 0px solid black;
 }
+.sf-bangers-description {
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 18px;
+}

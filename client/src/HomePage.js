@@ -49,6 +49,7 @@ class HomePage extends React.Component {
             <div className="homepage-form-container">
                 <div className='homepage-form'>
                     <img src={logo} className='homepage-logo' alt='logo-home'/>
+                    <div className='sf-bangers-description'>SF Bangers will create a Spotify playlist with songs from artists performing in San Francisco for the week selected below</div>
                     <div className='homepage-form-section'>
                         <div className='homepage-step-label'>Step 1</div>
                         <div className='homepage-form-sublabel'>You need to authenticate with Spotify for SF Bangers to create playlists on your behalf</div>
@@ -61,7 +62,7 @@ class HomePage extends React.Component {
                     </div>
                     <div className='homepage-form-section'>
                         <div className='homepage-step-label'>Step 3</div>
-                        <div className='homepage-form-sublabel'>Please subscribe to automatic playlists per week via email</div>
+                        <div className='homepage-form-sublabel'>Enter your email to get a weekly Spotify playlist automatically added to your library, featuring artists playing concerts in the upcoming week</div>
                         <Input placeholder='Enter your email address' onChange={(e) => this.setEmail(e.target.value)}/>
                     </div>
                     <div className='homepage-form-section'>
