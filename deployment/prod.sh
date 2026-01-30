@@ -10,7 +10,7 @@ mv build/ ..
 
 cd ..
 sudo npm install
-gcloud config set project sfbangers
+gcloud config set project sf-bangers
 gcloud app deploy prod.yaml --no-cache
 rm -r build/
 cd deployment/
