@@ -1,0 +1,24 @@
+{
+  "name": "pickem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "googleapis": "^110.0.0",
+    "node-cron": "^3.0.2",
+    "nodemon": "^2.0.12",
+    "oauth": "^0.9.15",
+    "passport": "^0.4.1",
+    "passport-twitter": "^1.0.4",
+    "twit": "^2.2.11"
+  }
+}

@@ -1,0 +1,40 @@
+body {
+    background-color: azure;
+}
+.homepage-form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homepage-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+.homepage-logo {
+    width: 150px;
+}
+.homepage-form-section {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.homepage-form-sublabel {
+    font-size: 10px;
+    margin-bottom: 5px;
+    font-weight: 100;
+}
+.homepage-step-label {
+    font-weight: 700;
+    font-size: 17px;
+}
+.generated-playlist-frame {
+    width: 100%;
+    height: 152px;
+    border-radius: 10px;
+    border: 0px solid black;
+}
